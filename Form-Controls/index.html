@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -33,34 +33,40 @@ All fields are required. Do not write a form action for this project.
         2. Make sure all fields are required.
         -->
         <fieldset>
-        <legend>Customer Information</legend>
-        <label for="name">Customer's name:</label>
-        <input type="text" id="name" name="name" required minlength="2" />
-    
-        <label for="email">Customer's email:</label>
-        <input type="email" id="email" name="email" required />
+          <legend>Customer Information</legend>
+          <p>
+            <label for="name">Customer's name:</label>
+            <input type="text" id="name" name="name" required minlength="2" />
+          </p>
+          <p>
+            <label for="email">Customer's email:</label>
+            <input type="email" id="email" name="email" required />
+          </p>
         </fieldset>
 
         <fieldset>
-        <legend>T-shirt Information</legend>
-        <label for="colour">T-shirt colour:</label>
-        <select id="colour" name="colour" required>
-          <option value="">Select a colour</option>
-          <option value="red">Red</option>
-          <option value="blue">Blue</option>
-          <option value="green">Green</option>
-        </select>
-
-        <label for="size">T-shirt size:</label>
-        <select id="size" name="size" required>
-          <option value="">Select a size</option> 
-          <option value="XS">XS</option>
-          <option value="S">S</option>
-          <option value="M">M</option>
-          <option value="L">L</option>
-          <option value="XL">XL</option>
-          <option value="XXL">XXL</option>
-        </select>
+          <legend>T-shirt Information</legend>
+          <p>
+            <label for="colour">T-shirt colour:</label>
+            <select id="colour" name="colour" required>
+              <option value="">Select a colour</option>
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="green">Green</option>
+            </select>
+          </p>
+          <p>
+            <label for="size">T-shirt size:</label>
+            <select id="size" name="size" required>
+              <option value="">Select a size</option>
+              <option value="XS">XS</option>
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+              <option value="XL">XL</option>
+              <option value="XXL">XXL</option>
+            </select>
+          </p>
         </fieldset>
       </form>
     </main>
