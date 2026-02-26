@@ -66,12 +66,7 @@ https://developer.chrome.com/docs/devtools/css/grid
 https://gridbyexample.com/learn/
 */
 main {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--space);
-  > *:first-child {
-    grid-column: span 2;
-  }
+
 }
 /* ====== Article Layout ====== 
 Setting the rules for how elements are placed in the article. 
