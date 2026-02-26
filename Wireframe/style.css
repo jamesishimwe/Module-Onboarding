@@ -93,6 +93,7 @@ article {
     "top top"
     "left right";
   gap: var(--space);
+  
 }
 .article1 {
   grid-area: top;
@@ -103,3 +104,8 @@ article {
 .article3 {
   grid-area: right;
 }
+.article1, .article2, .article3 {
+  border: var(--line);
+  padding-bottom: var(--space);
+  text-align: left;
+} 
