@@ -39,6 +39,7 @@ a {
   padding: var(--space);
   border: var(--line);
   max-width: fit-content;
+  text-decoration: none;
 }
 img,
 svg {
