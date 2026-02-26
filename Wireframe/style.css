@@ -91,3 +91,11 @@ article {
     grid-column: span 3;
   }
 }
+
+.articles {
+  display: grid;
+  grid-template-areas:
+    "top top"
+    "left right";
+  gap: var(--space);
+}
