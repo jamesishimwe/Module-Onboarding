@@ -96,6 +96,7 @@ article {
   grid-template-areas:
     "top top"
     "left right";
+    grid-template-columns: 1fr 1fr; 
   gap: var(--space);
   
 }
